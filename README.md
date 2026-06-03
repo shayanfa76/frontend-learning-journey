@@ -42,7 +42,7 @@ I have committed 100% of my focus to mastering the web's core technologies.
 ---
 
 ## 📂 Featured Projects
-001 - Geometric Hero Banner - [View Code](./01-HTML-CSS-Static/001-Geometric-Hero-Banner)
+001 - Geometric Hero Banner - [View Code](./01-HTML-CSS-Basic/001-Geometric-Hero-Banner)
 
   
 ---
