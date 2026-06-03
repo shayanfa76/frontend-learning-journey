@@ -52,5 +52,6 @@ I have committed 100% of my focus to mastering the web's core technologies.
 
 ---
 📫 **How to reach me:**
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayan-fathi)
 
