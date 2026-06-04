@@ -30,6 +30,9 @@ body {
     margin-top: 36px     
 }
 
+.login {
+    display: none;
+}
 
 .logo {
     display: flex;
@@ -105,3 +108,151 @@ body {
     /* background-color: #ffc107; */
     color: white;
 }
+
+
+@media(max-width:1080px) {
+   .container{
+    max-width: 800px;
+   } 
+   .logo {
+    gap: 1rem;
+   }
+   .nav-links {
+    margin-left: auto;
+    margin-right: 3rem;
+   }
+}
+
+@media(max-width:860px) {
+    .container{
+     max-width: 600px;
+     height: 50px;
+     font-size: 12px;
+    } 
+    .logo {
+     gap: 0.7rem;
+    }
+    .nav-links {
+     margin-left: auto;
+     gap: 0.8rem;
+     margin-right: 1.5rem;
+    }
+    .btn-login {
+        font-weight: 300;
+    font-size: 10px;
+    height: 30px;
+    padding: 6px 10px;
+    }
+    .icons {
+        height: 1.3rem;
+    }
+ }
+
+ @media(max-width:860px) {
+    .container{
+     max-width: 480px;
+     height: 40px;
+     font-size: 10px;
+    } 
+    .logo {
+        gap: 0.5rem;
+       }
+       .logo h1{
+        font-size: 1rem;
+       }
+    .nav-links {
+        margin-left: auto;
+        gap: 0.6rem;
+        margin-right: 1.2rem;
+       }
+       .btn-login {
+        font-weight: 100;
+    font-size: 10px;
+    height: 24px;
+    padding: 2px 8px;
+    }
+    .icons {
+        height: 1.1rem;
+    }
+ }
+
+ @media(max-width:512px) {
+    .container{
+     max-width: 380px;
+     height: 35px;
+     font-size: 8px;
+    } 
+    .logo {
+        gap: 0.4rem;
+       }
+       .logo h1{
+        font-size: 0.8rem;
+       }
+    .nav-links {
+        margin-left: auto;
+        gap: 0.4rem;
+        margin-right: 0.8rem;
+       }
+    .btn-login {
+        font-weight: 100 !important;
+        font-size: 8px;
+        height: 20px;
+        padding: 2px 6px;
+    }
+    .icons {
+        height: 0.9rem;
+    }
+ }
+
+ @media(max-width:400px) {
+    .container {
+        max-width: 360px;
+        height: 2rem;
+    }
+    .logo {
+        gap: 0.3rem;
+       }
+       .logo h1{
+        font-size: 0.7rem;
+       }
+    .icons {
+        height: 0.6rem;
+    }
+    .btn-login {
+        font-weight: 100 !important;
+        font-size: 8px;
+        height: 20px;
+        padding: 1px 4px;
+    }
+ }
+
+ @media(max-width:368px) {
+    .container {
+        max-width: 300px;
+        height: 2rem;
+    }
+    .logo {
+        gap: 0.3rem;
+       }
+       .logo h1{
+        font-size: 0.7rem;
+       }
+    .icons {
+        height: 0.6rem;
+    }
+    .btn-login {
+       display: none;
+    }
+    .login {
+        display: block;
+        font-size: 8px;
+        height: 20px;
+        padding: 1px 4px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        background-color: #1a73e8;
+        transition: 0.3s ease;
+        color: #ffffff;
+    }
+ }
