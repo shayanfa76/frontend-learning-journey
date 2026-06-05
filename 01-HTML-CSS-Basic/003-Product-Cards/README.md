@@ -8,7 +8,7 @@ This project focuses on building a clean, modern, and responsive e-commerce prod
 - Use embedded inline SVGs for high-quality, scalable UI icons and star ratings.
 
 ## 📸 Preview
-![Preview](./preview.png.png)
+![Preview](./preview.png)
 
 ## 💡 Key Learnings
 In this project, I learned how to handle complex text wrapping inside flexible layouts, manage spacing using gap properties, and integrate custom Persian typography (Shabnam font) for a localized and user-friendly interface.
