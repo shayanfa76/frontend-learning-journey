@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "shabnam";
+    src: url("./fonts/Shabnam-FD.woff2") format("woff2");
+}
+
+body {
+    font-family: "shabnam", sans-serif, 'Segoe UI', Tahoma;
+    background-color: #fafafa;
+    font-size: 12px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 56px;
+}
+
+#product-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.produdt-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.product-link a {
+    text-decoration: none;
+    color: #6aa0ff;
+    font-size: 14px;
+}
+
+#box {
+    width: 100%;
+    display: flex;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+.product-cards {
+    background-color: #fff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+#content {
+    padding:0 24px 24px;
+}
+
+#box .product-images {
+    width: 100%;
+    padding: 10px;
+}
+
+#box a {
+    text-decoration: none;
+    color: #555555;
+    display: inline-block;
+    height: 90px;
+}
+
+#discount {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+#discount .discount-percent {
+    background-color: #DBEAFE;
+    color: #1D4ED8;
+    /* border: 1px solid #93C5FD; */
+    border-radius: 4px;
+    padding: 2px;
+    font-weight: 600;
+}
+
+#box .discount-price {
+    text-decoration: line-through;
+}
+
+#rate-and-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rate-and-price .net-price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#rate-and-price .net-price span  {
+    font-weight: bold;
+}
+
+#rate-and-price .rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.icons {
+    height: 16px;
+    width: 16px;
+}
+
+.new-products {
+    color: #6cb0fd;
+    stroke-width: 2px;
+}
+
+.star {
+    color: #f1c40f;
+}
