@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add your Frontend Mentor solution URL here]
-- Live Site URL: [Add your GitHub Pages live URL here]
+- Live Site URL: [[Add your GitHub Pages live URL here](https://shayanfa76.github.io/frontend-learning-journey/01-HTML-CSS-Basic/004-QR-Code-Component/)]
 
 ## My process
 
@@ -41,3 +41,5 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+I also encountered a common Box Model challenge with border-radius on images. I learned that adding padding directly to an image pushes the content inward, making the border-radius applied to the transparent padding area rather than the image itself. To fix this, I applied the padding to the parent .container and gave the image a width: 100%, allowing the border-radius to apply smoothly to the image corners.
