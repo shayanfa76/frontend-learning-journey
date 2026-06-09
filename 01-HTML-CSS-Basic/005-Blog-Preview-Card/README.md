@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add your GitHub repository URL here](https://github.com/shayanfa76/frontend-learning-journey.git)]
-- Live Site URL: [[Add your live site URL here (e.g., GitHub Pages)]]
+- Solution URL: [[[Add your GitHub repository URL here](https://www.frontendmentor.io/solutions/responsive-blog-card-WzXRajvnwJ)]]
+- Live Site URL: [[[Add your live site URL here (e.g., GitHub Pages)](https://shayanfa76.github.io/blog-preview-card/)]]
 
 ## My process
 
